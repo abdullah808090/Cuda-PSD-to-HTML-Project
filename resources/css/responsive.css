@@ -1,0 +1,104 @@
+@media only screen and (max-width: 1160px)
+{
+    .row{
+        margin: 0 15px;
+    }
+    header{
+        height: 80vh;
+    }
+}
+@media only screen and (max-width: 1100px){
+    html{
+        font-size: 57.5%;
+    }
+    .header-content{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .mobile-manu span{
+      display: block;  
+    }
+    .main-nav{
+        display: none;
+    }
+    html{
+        font-size: 56.5%;
+    }
+    .client-photo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .client-review{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .contact-section form{
+        width: 100%;
+        margin-left: 0;
+    }
+    header{
+        height: 75vh;
+    }
+    
+}
+@media only screen and (max-width: 980px){
+    header{
+        height: 70vh;
+    }
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    .team-section .box p{
+        width: 100%;
+        margin-left: 0;
+        height: 12rem;
+    }
+    html{
+        font-size: 60.5%;
+    }
+}
+@media only screen and (max-width: 768px){
+     .little-description{
+        width: 100%;
+        margin-left: 0;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    h4{
+        font-size: 1.5rem;
+    }
+    .client-review .role{
+        font-size: 1.5rem;
+    }
+    header{
+        height: 65vh;
+    }
+}
+@media only screen and (max-width: 480px){
+    .span_1_of_4{
+        width: 100%;
+    }
+    header{
+        height: 75vh;
+    }
+    .testimonial-section .col:nth-child(3),
+    .testimonial-section .col:nth-child(4){
+        margin-top: 4rem;
+    }
+    .portfolio-filter button{
+        padding: 1rem 1rem;
+    }
+}
